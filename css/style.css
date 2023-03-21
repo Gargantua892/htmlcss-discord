@@ -10,6 +10,10 @@ body{
 
 /* Regole font */
 
+h2, h3, h4, h5{
+    margin-bottom: 8px;
+}
+
 h1{
     font-size: 42px;
 }
@@ -22,6 +26,15 @@ h3{
     font-size: 26px;
 }
 
+p{
+    line-height: 180%;
+}
+
+.text-center{
+    text-align: center;
+}
+
+
 .text-light{
     color: #fff;
 }
@@ -31,9 +44,71 @@ ul{
     padding: 0px;
 }
 
+/* Regole struttura */
 .w-80{
     width: 80%;
     margin: 0 auto;
+}
+
+.w-100{
+    width: 100%;
+}
+
+.row .col img{
+    width: 100%;
+    height: auto;
+}
+
+/* row */
+
+.row.direction-column{
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    padding: 5% 0px;
+ }
+
+ .row.row-reverse{
+    flex-direction: row-reverse;
+}
+
+.row.space-between{
+    justify-content: space-between;
+}
+
+/* Col */
+.col{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    width:100%;
+}
+
+.col-lg{
+    width: 70%;
+}
+
+.col-sm{
+    width: 30%;
+}
+
+/* Miscellanea */
+.container{
+    padding: 0px 14%;
+}
+
+.spacer{
+    margin-bottom:16px;
+}
+
+
+.bkg-grey{
+    background-color: #ededed;
 }
 
 /* Bottoni */
@@ -44,6 +119,14 @@ ul{
     display: inline-block;
 }
 
+.btn.primary-light-btn{
+    background-color: white;
+}
+
+.btn.dark-btn{
+    background-color: black;
+    color: #fff;
+}
 
 nav .btn.btn-sm{
     background-color: #fff;
@@ -53,10 +136,11 @@ nav .btn.btn-sm{
     margin: 0px;
     font-size: 12px;
     font-weight: 600;
+    color: #000;
 }
 
 .btn.primary-btn{
-    padding: 10px 24px;
+    padding: 12px 24px;
     font-size: 16px;
 }
 
@@ -67,6 +151,19 @@ nav .btn.btn-sm{
 
 .btn.dark-btn{
     background-color: #23272a;
+}
+
+.btn.mauve-btn{
+    background-color: #7289da;
+    color: #fff;
+}
+
+.btn-primary:before , .primary-light-btn:before {
+    content: "\f063";
+    position: relative;
+    display: inline-block;
+    font-family: "Font Awesome 5 Free";
+    margin-right: 4px;
 }
 
 
@@ -117,13 +214,16 @@ nav li{
     text-align: center;
 }
 
-#hero .container{
-    padding: 0px 14%;
+#hero ul{
+    margin-top: 36px;
+    margin-bottom: 36px;
+} 
+
+#hero li{
+    display: inline-block;
+    margin: 0px 10px;
 }
 
-#hero p{
-    line-height: 180%;
-}
 
 .icon-btn:before {
     content: "";
@@ -150,13 +250,13 @@ nav li{
     margin: 0 auto;
 } */
 
-.btn-primary:before , .primary-light-btn:before {
+/* .btn-primary:before , .primary-light-btn:before {
     content: "\f063";
     position: relative;
     display: inline-block;
     font-family: "Font Awesome 5 Free";
     margin-right: 4px;
-}
+} */
 
 /* .btn.btn-primary{
     background-color: mediumslateblue;
@@ -226,15 +326,15 @@ nav li{
     padding: 0px 14%;
 } */
 
-#hero ul{
+/* #hero ul{
     margin-top: 36px;
     margin-bottom: 36px;
-}
+} */
 
-#hero li{
+/* #hero li{
     display: inline-block;
     margin: 0px 10px;
-}
+} */
 
 .btn.primary-light-btn{
     background-color: white;
@@ -248,14 +348,14 @@ nav li{
 
 
 /* section row debug */
-.row{
+/* .row{
    display: flex;
    align-items: start;
    justify-content: center;
    padding: 5% 0px;
-}
+} */
 
-.row.row-reverse{
+/* .row.row-reverse{
     flex-direction: row-reverse;
 }
 
@@ -281,22 +381,22 @@ nav li{
 
 .bkg-grey{
     background-color: #ededed;
-}
+} */
 
-.row .col img{
+/* .row .col img{
     width: 100%;
     height: 400px;
     background-color: aqua;
-}
+} */
 
-
+/* 
 .row.direction-column{
     flex-direction: column;
-}
+} */
 
-.w-80.text-center{
+/* .text-center{
     text-align: center;
-}
+} */
 
 /* Fine section row debug */
 footer{
