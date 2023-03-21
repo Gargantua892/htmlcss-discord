@@ -142,9 +142,7 @@ i{
 }
 
 .btn.btn-sm{
-    background-color: #fff;
-    padding: 8px;
-    width: 90px;
+    padding: 8px 12px;
     text-align: center;
     margin: 0px;
     font-size: 12px;
@@ -196,11 +194,11 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 0px;
+    padding: 16px 0px;
 }
 
 nav img{
-    width: 90px;
+    width: 120px;
     height: 50px;
 }
 
@@ -210,6 +208,10 @@ nav li{
     display: inline-block;
     margin: 0px 10px;
 
+}
+
+#custom-w{
+    width: 120px;
 }
 
 /* ----------------------------  Fine nav ----------------------- */
