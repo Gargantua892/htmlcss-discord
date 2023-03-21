@@ -1,3 +1,5 @@
+/* ---------------------------- Regole generali ----------------------- */
+
 *{
     box-sizing: border-box;
 }
@@ -6,12 +8,72 @@ body{
     font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
-/* nav */
+/* Regole font */
+
+h1{
+    font-size: 42px;
+}
+
+h2{
+    font-size: 34px;
+}
+
+h3{
+    font-size: 26px;
+}
+
+.text-light{
+    color: #fff;
+}
 
 ul{
     list-style-type: none;
     padding: 0px;
 }
+
+.w-80{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Bottoni */
+
+.btn{
+    border-radius: 50px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+nav .btn.btn-sm{
+    background-color: #fff;
+    padding: 8px;
+    width: 90px;
+    text-align: center;
+    margin: 0px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.btn.primary-btn{
+    padding: 10px 24px;
+    font-size: 16px;
+}
+
+.btn-light{
+    background-color: #fff;
+    color: #23272a;
+}
+
+.btn.dark-btn{
+    background-color: #23272a;
+}
+
+
+/* ---------------------------- Fine Regole generali ----------------------- */
+
+
+/* ----------------------------  nav ----------------------- */
 
 header{
     position: relative;
@@ -39,23 +101,38 @@ nav li{
     margin: 0px 10px;
 
 }
-.btn{
-    border-radius: 50px;
-    text-decoration: none;
-}
+
+/* ----------------------------  Fine nav ----------------------- */
 
 
-.btn.btn-sm{
-    background-color: #fff;
-    padding: 8px;
-    width: 90px;
+/* ----------------------------  Hero ----------------------- */
+#hero{
+    background-image: url('../img/jumbo.png');
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    margin: 0px;
-    font-size: 12px;
-    font-weight: 600;
 }
 
+#hero .container{
+    padding: 0px 14%;
+}
 
+#hero p{
+    line-height: 180%;
+}
+
+.icon-btn:before {
+    content: "";
+    font-family: 'FontAwesome';
+    display: inline-block;
+    padding-right: 8px;
+}
+
+/* ----------------------------  Fine Hero ----------------------- */
 
 
 
@@ -66,12 +143,12 @@ nav li{
 
 /* --------------------- Regole di Debug --------------------- */
 
-.btn{
+/* .btn{
     padding: 10px 40px;
     max-width: 100px;
     display: inline-block;
     margin: 0 auto;
-}
+} */
 
 .btn-primary:before , .primary-light-btn:before {
     content: "\f063";
@@ -81,18 +158,18 @@ nav li{
     margin-right: 4px;
 }
 
-.btn.btn-primary{
+/* .btn.btn-primary{
     background-color: mediumslateblue;
     color: #fff;
-}
+} */
 
 
-nav li{
+/* nav li{
     float: left;
     display: inline-block;
     margin: 0px 10px;
 
-}
+} */
 
 
 /* nav debug */
@@ -126,7 +203,7 @@ nav li{
 
 /* hero debug */
 
-#hero{
+/* #hero{
     background-color: cadetblue;
     height: 50vh;
     width: 100%;
@@ -134,20 +211,20 @@ nav li{
     justify-content: center;
     align-items: center;
     text-align: center;
-}
+} */
 
-.w-80{
+/* .w-80{
     width: 80%;
     margin: 0 auto;
-}
-
+} */
+/* 
 .container{
     background-color: rgba(255, 0, 0, 0.234);
-}
+} */
 
-#hero .container{
-    padding: 0px 28%;
-}
+/* #hero .container{
+    padding: 0px 14%;
+} */
 
 #hero ul{
     margin-top: 36px;
