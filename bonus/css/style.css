@@ -117,7 +117,9 @@ ul{
 
 .bkg-grey{
     background-color: #ededed;
+    position: relative;
 }
+
 
 i{
     font-family: 'FontAwesome'!important;
@@ -177,7 +179,19 @@ i{
     margin-right: 4px;
 }
 
+.wave-1hkxOo path{
+    fill: #ededed;
+   
+}
 
+svg.rotate{
+    rotate: 180deg;
+}
+
+.wave-1hkxOo{
+    margin-bottom: -10px;
+   
+}
 /* ---------------------------- Fine Regole generali ----------------------- */
 
 
