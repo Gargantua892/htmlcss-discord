@@ -26,6 +26,10 @@ h3{
     font-size: 26px;
 }
 
+h4{
+    font-size: 14px;
+}
+
 p{
     line-height: 180%;
 }
@@ -102,6 +106,10 @@ ul{
     padding: 0px 14%;
 }
 
+.align-start{
+    align-items: start;
+}
+
 .spacer{
     margin-bottom:16px;
 }
@@ -109,6 +117,11 @@ ul{
 
 .bkg-grey{
     background-color: #ededed;
+}
+
+i{
+    font-family: 'FontAwesome'!important;
+    font-size: 20px;
 }
 
 /* Bottoni */
@@ -128,7 +141,7 @@ ul{
     color: #fff;
 }
 
-nav .btn.btn-sm{
+.btn.btn-sm{
     background-color: #fff;
     padding: 8px;
     width: 90px;
@@ -235,8 +248,56 @@ nav li{
 /* ----------------------------  Fine Hero ----------------------- */
 
 
+/* --------------------- Footer --------------------- */
 
+footer{
+    background-color: #23272a;
+    color: #fff;
+}
+footer #social-icon li{
+    display: inline-block;
+    margin-right: 10px;
+}
 
+footer #social-icon{
+    padding-left: 0px;
+}
+
+.switcher::before{
+    position: relative;
+    display: inline-block;
+    font-family: "Font Awesome 5 Free";
+}
+
+footer h3, footer h4{
+    color:  #7289da;
+    margin-top: 0px;
+}
+
+footer ul{
+    margin: 0px;
+}
+
+footer li{
+    padding-bottom: 16px;
+}
+
+select#switcher {
+    font-size: 18px;
+    background-color: #23272a;
+    border: 0px;
+    color: #fff;
+}
+
+#footer-closer{
+    border-top: 2px solid  #7289da;
+}
+
+footer .row:nth-child(2){
+    padding-top: 16px;
+    padding-bottom: 36px;
+}
+/* --------------------- Fine Footer --------------------- */
 
 
 
@@ -399,7 +460,7 @@ nav li{
 } */
 
 /* Fine section row debug */
-footer{
+/* footer{
     background-color: darkslategrey;
     color: #fff;
 }
@@ -417,4 +478,4 @@ footer #social-icon{
     position: relative;
     display: inline-block;
     font-family: "Font Awesome 5 Free";
-}
+} */
