@@ -1,0 +1,194 @@
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------- Regole di Debug --------------------- */
+
+.btn{
+    padding: 10px 40px;
+    max-width: 100px;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.btn-primary:before , .primary-light-btn:before {
+    content: "\f063";
+    position: relative;
+    display: inline-block;
+    font-family: "Font Awesome 5 Free";
+    margin-right: 4px;
+}
+
+.btn.btn-primary{
+    background-color: mediumslateblue;
+    color: #fff;
+}
+
+
+
+ul{
+    list-style-type: none;
+}
+
+
+/* nav debug */
+
+header{
+    background-color: aqua;
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+nav img{
+    width: 90px;
+    height: 50px;
+    background-color: red;
+}
+nav ul {
+    padding-left: 0px;
+}
+
+nav li{
+    float: left;
+    display: inline-block;
+    margin: 0px 10px;
+
+}
+
+nav .btn-sm{
+    width: 90px;
+    height: 20px;
+    background-color: cornflowerblue;
+}
+
+/* fine nav debug */
+
+/* hero debug */
+
+#hero{
+    background-color: cadetblue;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.w-80{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container{
+    background-color: rgba(255, 0, 0, 0.234);
+}
+
+#hero .container{
+    padding: 0px 28%;
+}
+
+#hero ul{
+    margin-top: 36px;
+    margin-bottom: 36px;
+}
+
+#hero li{
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+.btn.primary-light-btn{
+    background-color: white;
+}
+
+.btn.dark-btn{
+    background-color: black;
+    color: #fff;
+}
+/* fine hero debug */
+
+
+/* section row debug */
+.row{
+   display: flex;
+   align-items: start;
+   justify-content: center;
+   padding: 5% 0px;
+}
+
+.row.row-reverse{
+    flex-direction: row-reverse;
+}
+
+.row.space-between{
+    justify-content: space-between;
+}
+
+.col{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    width:100%;
+}
+
+.col-lg{
+    width: 70%;
+}
+
+.col-sm{
+    width: 30%;
+}
+
+.bkg-grey{
+    background-color: #ededed;
+}
+
+.row .col img{
+    width: 100%;
+    height: 400px;
+    background-color: aqua;
+}
+
+
+.row.direction-column{
+    flex-direction: column;
+}
+
+.w-80.text-center{
+    text-align: center;
+}
+
+/* Fine section row debug */
+footer{
+    background-color: darkslategrey;
+    color: #fff;
+}
+footer #social-icon li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+footer #social-icon{
+    padding-left: 0px;
+}
+
+.switcher::before{
+    content: "🇮🇹";
+    position: relative;
+    display: inline-block;
+    font-family: "Font Awesome 5 Free";
+}
