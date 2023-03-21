@@ -6,6 +6,7 @@
 
 body{
     font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+    margin: 0px;
 }
 
 /* Regole font */
@@ -179,6 +180,8 @@ i{
     margin-right: 4px;
 }
 
+
+/* Sezione svg */
 .wave-1hkxOo path{
     fill: #ededed;
    
@@ -191,6 +194,13 @@ svg.rotate{
 .wave-1hkxOo{
     margin-bottom: -10px;
    
+}
+
+#star-bkg:before{
+    content: url("../img/stars.svg");
+    display: block;
+    position: relative;
+    height: 40px;
 }
 /* ---------------------------- Fine Regole generali ----------------------- */
 
